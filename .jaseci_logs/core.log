@@ -1,0 +1,12 @@
+2025-08-09 16:41:04,852 - ERROR - start: Skipping RedisService due to initialization failure!
+ConnectionError: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-08-09 16:41:04,874 - ERROR - jac_code_to_ast: Parse errors encountered - <jaseci.jac.ir.ast_builder.JacAstBuilder object at 0x000001D401482560>
+2025-08-09 16:41:04,875 - ERROR - compile_jac: doc_writer_agent.jac: Invalid syntax in Jac code!
+2025-08-09 16:41:04,875 - ERROR - compile_jac: doc_writer_agent.jac: line 4:0 - unparsed:doc_writer_agent.jac:0:0: - mismatched input 'architype' expecting {<EOF>, 'version', 'type', 'graph', 'node', 'import', 'edge', 'walker', 'async', 'test', 'global'}
+2025-08-09 16:41:04,875 - ERROR - register: doc_writer_agent.jac: Code not registered
+2025-08-09 16:41:51,244 - ERROR - start: Skipping RedisService due to initialization failure!
+ConnectionError: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-08-09 16:41:51,265 - ERROR - jac_code_to_ast: Parse errors encountered - <jaseci.jac.ir.ast_builder.JacAstBuilder object at 0x00000250DB36DC00>
+2025-08-09 16:41:51,265 - ERROR - compile_jac: doc_writer_agent.jac: Invalid syntax in Jac code!
+2025-08-09 16:41:51,266 - ERROR - compile_jac: doc_writer_agent.jac: line 4:0 - unparsed:doc_writer_agent.jac:0:0: - mismatched input 'architype' expecting {<EOF>, 'version', 'type', 'graph', 'node', 'import', 'edge', 'walker', 'async', 'test', 'global'}
+2025-08-09 16:41:51,266 - ERROR - register: doc_writer_agent.jac: Code not registered
