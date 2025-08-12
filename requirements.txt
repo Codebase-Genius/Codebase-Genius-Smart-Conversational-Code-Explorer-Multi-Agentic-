@@ -1,0 +1,16 @@
+# Core Dependencies for the Codebase Genius Project
+
+# Jaseci Framework
+jaseci             # The core Jaseci engine for multi-agent systems and the Jac language
+jaseci_ai_kit      # Provides essential pre-built actions for AI, including LLM integrations
+
+# Large Language Model (LLM) Integration
+openai             # Official Python library for interacting with the OpenAI API (GPT-4)
+python-dotenv      # For loading environment variables (like API keys) from a .env file
+
+# Code Analysis & Cloning (For Member 1's tasks)
+GitPython          # To clone GitHub repositories programmatically via the RepoClonerAgent
+tree-sitter        # A powerful parser generator tool for building ASTs from source code
+
+# Testing Framework (For development)
+pytest             # The framework for writing and running the test suite
