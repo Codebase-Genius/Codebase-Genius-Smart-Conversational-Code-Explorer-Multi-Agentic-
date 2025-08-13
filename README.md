@@ -106,9 +106,8 @@ You can interact with the system using the Jaseci command-line tool, `jsctl`.
     *You will see the AI-generated answer in the console.*
 
 ## 🧑‍💻 Team Roles & Responsibilities
-Mathusayini T
 
 
--   **Member 1 (Codebase Analyzer & Mapper Lead):** Responsible for `RepoClonerAgent`, `CodeParserAgent`, and `SemanticMapperAgent`. Focuses on getting code from GitHub into the Jac graph.
--   **Member 2 (AI & Documentation System Lead):** Responsible for `DocWriterAgent`, `ConversationalAgent`, and `SearchAgent`. Focuses on LLM integration and Q&A logic.
--   **Member 3 (UI, Visualization & Coordinator Lead):** Responsible for `CoordinatorAgent` and `DiagramAgent`. Focuses on orchestrating the workflow and handling visual output.
+-   **Dona (Codebase Analyzer & Mapper Lead):** Responsible for `RepoClonerAgent`, `CodeParserAgent`, and `SemanticMapperAgent`. Focuses on getting code from GitHub into the Jac graph.
+-   **Mathusayini (AI & Documentation System Lead):** Responsible for `DocWriterAgent`, `ConversationalAgent`, and `SearchAgent`. Focuses on LLM integration and Q&A logic.
+-   **Pingalan (UI, Visualization & Coordinator Lead):** Responsible for `CoordinatorAgent` and `DiagramAgent`. Focuses on orchestrating the workflow and handling visual output.
