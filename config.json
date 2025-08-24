@@ -1,0 +1,5 @@
+{
+  "model": "gpt-4o-mini",
+  "workdir": "./data",
+  "github_token_env": "GITHUB_TOKEN"
+}

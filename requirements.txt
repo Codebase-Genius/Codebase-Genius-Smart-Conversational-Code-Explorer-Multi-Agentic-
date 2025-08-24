@@ -1,0 +1,5 @@
+openai>=0.27.0
+python-dotenv>=1.0.1
+jaclang>=0.8.0
+mtllm>=0.4.0
+GitPython>=3.1.43
