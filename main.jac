@@ -9,15 +9,23 @@ obj MyApp {
     has workdir: str;
 
     def run(url: str) -> dict {
-        r = walker RunAll { url: url, model: self.model } on ::root;
-
+        r = repo_cloner_walkers::RunAll(url=url, model=model) on ::root;
+        p = parser_walkers::ParseAll(model=model) on ::root;
+        s = semantic_walkers::SemanticMap(model=model) on ::root;
+        d = doc_writer::DocWrite(model=model) on ::root;
+        dg = diagram_walkers::DiagramGen(model=model) on ::root;
+        c = conversational_walkers::Converse(model=model) on ::root;
+        sr = search_walkers::SearchAll(model=model) on ::root;
+        co = coordinator_walkers::Coordinate(model=model) on ::root;
+        
         files = [f.path for f in nodes::FileNode.entries()];
+
         return {
             "url": url,
-            "model": self.model,
-            "workdir": self.workdir,
+            "model": model,
+            "workdir": workdir,
             "repo": r.repo,
-            "docs": r.docs,
+            "docs": d.docs,
             "files": files
         };
     }
