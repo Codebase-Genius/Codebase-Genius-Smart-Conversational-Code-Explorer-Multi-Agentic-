@@ -88,8 +88,8 @@ Codebase Genius employs 8 specialized agents working in harmony:
 - ✅ **Jac** - Native language support
 
 
-### Team Roles
+### Team Trifecta01
 
-- **Member 1**: Codebase Analyzer & Mapper Lead
-- **Member 2**: AI & Documentation System Lead  
-- **Member 3**: UI, Visualization & Coordinator Lead
+- **Annci Donacia Glennie Johnpillai**: Codebase Analyzer & Mapper Lead
+- **Mathusayini Thayalanesan**: AI & Documentation System Lead  
+- **Pingalan Sivananthanathan**: UI, Visualization & Coordinator Lead
