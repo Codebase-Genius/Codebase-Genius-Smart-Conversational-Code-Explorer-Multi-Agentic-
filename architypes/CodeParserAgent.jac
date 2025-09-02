@@ -1,4 +1,4 @@
-architype CodeParserAgent {
+obj CodeParserAgent {
     has repo_path: str;
 
     can parse_repo(paths: list[str]) -> list[dict] {
