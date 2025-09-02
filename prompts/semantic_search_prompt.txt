@@ -1,0 +1,1 @@
+Given a natural-language query, return a prioritized list of relevant symbols (classes, functions) and the files they live in.
