@@ -1,6 +1,6 @@
 import from mtllm { Model }
 import from schemas { nodes, edges }
-import from agents { RepoClonerAgent, CodeParserAgent, SemanticMapperAgent, DocWriterAgent, DiagramAgent, ConversationalAgent, SearchAgent, CoordinatorAgent }
+import from architypes { RepoClonerAgent, CodeParserAgent, SemanticMapperAgent, DocWriterAgent, DiagramAgent, ConversationalAgent, SearchAgent, CoordinatorAgent }
 import from walkers { RunAll, SearchSymbols, AskCodebase, DiagramForFile }
 
 glob llm = Model(model_name="gemini/gemini-2.0-flash");
